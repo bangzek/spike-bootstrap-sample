@@ -1,0 +1,41 @@
+{
+  "name": "spike-bootstrap-sample",
+  "description": "Example of using bootstrap 4 with spike",
+  "version": "0.0.1",
+  "author": "bangzek",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/bangzek/spike-bootstrap-sample/issues",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "bootstrap": "https://github.com/twbs/bootstrap/archive/v4-dev.tar.gz",
+    "cssnano": "^3.10.0",
+    "node-sass": "^4.5.3",
+    "postcss-calc": "^6.0.0",
+    "reshape-standard": "^2.0.0",
+    "sass-loader": "^6.0.6",
+    "spike": "^2.0.0",
+    "spike-js-standards": "^2.0.2",
+    "spike-page-id": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "rimraf": "^2.6.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
+  },
+  "homepage": "https://github.com/bangzek/spike-bootstrap-sample",
+  "main": "app.js",
+  "private": true,
+  "repository": "https://github.com/bangzek/spike-bootstrap-sample",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava",
+    "start": "spike watch",
+    "build": "spike compile",
+    "prod": "NODE_ENV=production spike compile -e production"
+  }
+}
