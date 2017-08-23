@@ -6,7 +6,8 @@ Example of using bootstrap 4 with spike
 
 - make sure [node.js](http://nodejs.org) is at version >= `6`
 - `npm i spike -g`
-- clone this repo down and `cd` into the folder or just use this [spike template](https://github.com/bangzek/spike-tpl-bootstrap)
+- clone this repo down or use this [spike template](https://github.com/bangzek/spike-tpl-bootstrap) to make new spike project
+- then `cd` into the folder
 - run `npm install`
 - run `spike watch` or `spike compile`
 
