@@ -11,7 +11,6 @@ Example of using bootstrap 4 with spike
 - run `npm install`
 - run `spike watch` or `spike compile`
 
-
 ## Testing
 Tests are located in `test/**` and are powered by [ava](https://github.com/sindresorhus/ava)
 - `npm install` to ensure devDeps are installed
